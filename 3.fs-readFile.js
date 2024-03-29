@@ -1,4 +1,5 @@
 const fs = require('node:fs');
+
 console.log('Leyendo el primer archivo...')
 fs.readFile('./archivo.txt', 'utf-8', (err, text) => {//Ejecutas este callback
     console.log('Primer Texto:', text)
